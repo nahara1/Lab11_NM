@@ -19,7 +19,7 @@ public class Rectangle extends Shape {
 
 
     public Rectangle(Point p1) {
-        System.out.println("Rectangle Point: X:" + p1.x + " Y:" + p1.y);
+        System.out.println("Rectangle Point: X:" + p1.x + " Y:" + p1.y + "\n");
 
     }
 
@@ -31,7 +31,7 @@ public class Rectangle extends Shape {
         this.n = p4;
         //System.out.println("Rectangle Point: X:" + p1.x + " Y:" + p1.y);
         //System.out.println("Rectangle Point: X:" + p1.x + " Y:" + p1.y + " Length:" + length + " Height:" + height);
-        System.out.println("Rectangle Coordinates: (" + p1.x + ", " + p1.y + "), " + "(" + p2.x + ", " + p2.y + "), " + "(" + p3.x + ", " + p3.y + "), " + "(" + p4.x + ", " + p4.y + ")");
+        System.out.println("Rectangle Coordinates: (" + p1.x + ", " + p1.y + "), " + "(" + p2.x + ", " + p2.y + "), " + "(" + p3.x + ", " + p3.y + "), " + "(" + p4.x + ", " + p4.y + ")" + "\n");
 
     }
 }

@@ -9,8 +9,6 @@ public class Triangle extends Shape {
 
     public Triangle(Point p1, Point p2, Point p3) {
 
-        //System.out.println("Rectangle Point: X:" + p1.x + " Y:" + p1.y);
-        //System.out.println("Rectangle Point: X:" + p1.x + " Y:" + p1.y + " Length:" + length + " Height:" + height);
         System.out.println("Triangle Coordinates: (" + p1.x + ", " + p1.y + "), " + "(" + p2.x + ", " + p2.y + "), " + "(" + p3.x + ", " + p3.y);
 
     }

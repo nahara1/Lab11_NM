@@ -4,7 +4,7 @@ public class Triangle extends Shape {
     public Triangle () {
         Point p1 = new Point(5, 5);
         Point p2 = new Point(5, 10);
-        Point p3 = new Point(5, 20);
+        Point p3 = new Point(10, 20);
     }
 
     public Triangle(Point p1, Point p2, Point p3) {

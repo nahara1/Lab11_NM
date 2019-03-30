@@ -10,7 +10,7 @@ public class Rectangle extends Shape {
         Point pt2 = new Point(pt1.x, 6);
         Point pt3 = new Point(7, pt1.y);
         Point pt4 = new Point(pt3.x, pt2.y);
-        System.out.println("Rectangle Coordinates: (" + pt1.x + ", " + pt1.y + "), " + "(" + pt2.x + ", " + pt2.y + "), " + "(" + pt3.x + ", " + pt3.y + "), " + "(" + pt4.x + ", " + pt4.y + ")");
+        System.out.println("Rectangle Points: (" + pt1.x + ", " + pt1.y + "), " + "(" + pt2.x + ", " + pt2.y + "), " + "(" + pt3.x + ", " + pt3.y + "), " + "(" + pt4.x + ", " + pt4.y + ")");
 
     }
 
@@ -31,7 +31,7 @@ public class Rectangle extends Shape {
 
     }
 
-    // All four points
+    // 4 points
     public Rectangle(Point p1, Point p2, Point p3, Point p4) {
 
         //System.out.println("Rectangle Point: X:" + p1.x + " Y:" + p1.y);

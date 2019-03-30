@@ -1,6 +1,6 @@
 /*
 Project: Lab 11
-Purpose Details:
+Purpose Details: Apply inheritance
 Course: IST 242-001
 Author: Nahara Melodonascimentodemou
 Date Developed: 3/28/19

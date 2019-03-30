@@ -21,11 +21,10 @@ public class Rectangle extends Shape {
 
     }
 
-    // point, length, and height
+    // 2 points, length, and height
 
     public Rectangle(Point p1, Point p2, int length, int height) {
-        System.out.println("Rectangle Point 1: X:" + p1.x + " Y:" + p1.y);
-        System.out.println("Rectangle Point 2: X:" + p2.x + " Y:" + p2.y);
+        System.out.println("Rectangle Points: X:" + p1.x + " Y:" + p1.y + "\n" +  + p2.x + " Y:" + p2.y);
         System.out.println("Height: " + height);
         System.out.println("Length: " + length + "\n");
 
@@ -36,7 +35,7 @@ public class Rectangle extends Shape {
 
         //System.out.println("Rectangle Point: X:" + p1.x + " Y:" + p1.y);
         //System.out.println("Rectangle Point: X:" + p1.x + " Y:" + p1.y + " Length:" + length + " Height:" + height);
-        System.out.println("Rectangle Points: (" + p1.x + ", " + p1.y + "), " + "(" + p2.x + ", " + p2.y + "), " + "(" + p3.x + ", " + p3.y + "), " + "(" + p4.x + ", " + p4.y + ")" + "\n");
+        System.out.println("Rectangle Points: X: " + p1.x + ", Y:" + p1.y + "(" + p2.x + ", " + p2.y + "), " + "(" + p3.x + ", " + p3.y + "), " + "(" + p4.x + ", " + p4.y + ")" + "\n");
 
     }
 }

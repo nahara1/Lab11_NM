@@ -24,10 +24,10 @@ public class Rectangle extends Shape {
     // point, length, and height
 
     public Rectangle(Point p1, Point p2, int length, int height) {
-        System.out.println("Rectangle Point 1: X:" + p1.x + " Y:" + p1.y + "\n");
-        System.out.println("Rectangle Point 2: X:" + p2.x + " Y:" + p2.y + "\n");
+        System.out.println("Rectangle Point 1: X:" + p1.x + " Y:" + p1.y);
+        System.out.println("Rectangle Point 2: X:" + p2.x + " Y:" + p2.y);
         System.out.println("Height: " + height);
-        System.out.println("Length: " + length);
+        System.out.println("Length: " + length + "\n");
 
     }
 

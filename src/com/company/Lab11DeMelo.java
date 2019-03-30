@@ -17,7 +17,8 @@ public class Lab11DeMelo {
 
 
 //Rectangle
-        Rectangle r1 = new Rectangle(pt1);
+        Rectangle r = new Rectangle();
+        Rectangle r1 = new Rectangle(pt1, pt2, 10, 4);
         Rectangle r2 = new Rectangle(p1, p2, p3, p4);
 
 

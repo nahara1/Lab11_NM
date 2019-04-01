@@ -10,8 +10,33 @@ Rev: 5
 
 package com.company;
 
+import org.w3c.dom.css.Rect;
+
 public class Lab11DeMelo {
     public static void main(String[] args) {
+
+        // Points
+        Point p1 = new Point(5, 10);
+        Point p2 = new Point(5, 20);
+        Point p3 = new Point(10, 10);
+        Point p4 = new Point(10, 20);
+
+
+
+
+
+
+        // Circle
+
+        Circle circle = new Circle();
+
+        // Rectangle
+
+        Rectangle rectangle = new Rectangle();
+
+        // Triangle
+
+        Triangle triangle = new Triangle();
 
 
 

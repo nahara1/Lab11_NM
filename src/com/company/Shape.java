@@ -5,6 +5,14 @@ public abstract class Shape {
 
     private ArrayList<Point> points = new ArrayList<Point>();
 
+    // Points
+    Point p1 = new Point(5, 10);
+    Point p2 = new Point(5, 20);
+    Point p3 = new Point(10, 10);
+    Point p4 = new Point(10, 20);
+
+
+
     public Shape(ArrayList<Point> _points) {
         points = _points;
     }

@@ -8,4 +8,17 @@ public class Point {
         this.y = _y;
 
     }
+
+    public int getX () {
+        return x;
+    }
+
+    public int getY () {
+        return y;
+    }
+
+
+
+
+
 }

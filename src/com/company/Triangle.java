@@ -18,8 +18,8 @@ public class Triangle extends Shape {
         super (p1);
         super.addPoints(p2);
         super.addPoints(p3);
-        System.out.println("Triangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + p2.x + ", Y:" + p2.y + "), " + "(X:" + p3.x + ", Y:" + p3.y + ")\n");
-        System.out.println("Triangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + "(X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + "\n");
+        //System.out.println("Triangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + p2.x + ", Y:" + p2.y + "), " + "(X:" + p3.x + ", Y:" + p3.y + ")\n");
+        System.out.println("Triangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + "), (X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + ")\n");
 
     }
 

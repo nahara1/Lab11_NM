@@ -20,7 +20,7 @@ public class Rectangle extends Shape {
         super.addPoints(p2);
         super.addPoints(p3);
         super.addPoints(p4);
-        System.out.println("Rectangle Points: X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + "X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + "X:" + super.getPointX(3) + ", Y:" + super.getPointY(3));
+        System.out.println("Rectangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + "), (X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + ")\n");
 
     }
 

@@ -23,26 +23,21 @@ public class Lab11DeMelo {
 
 
 
-
-
-
         // Circle
-
+        System.out.println("CIRCLE");
         Circle circle = new Circle();
         Circle c = new Circle(p1, 5);
 
 
         // Rectangle
-
+        System.out.println("RECTANGLE");
         Rectangle rectangle = new Rectangle();
         Rectangle r = new Rectangle(p1, p2, p3, p4);
 
 
         // Triangle
-
+        System.out.println("TRIANGLE");
         Triangle triangle = new Triangle();
-
-
         Triangle t = new Triangle(p1, p2, p3);
 
 

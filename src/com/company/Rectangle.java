@@ -12,10 +12,13 @@ public class Rectangle extends Shape {
         System.out.println("Rectangle Radius: " + "\n");
     }
 
-    public Rectangle(Point p1) {
+    public Rectangle(Point p1, Point p2, Point p3, Point p4) {
         super(p1);
-        System.out.println("Rectangle Point: X:" + super.getPointX(0) + ", Y:" + super.getPointY(0));
-
+        super.addPoints(p1);
+        super.addPoints(p2);
+        super.addPoints(p3);
+        super.addPoints(p4);
+        System.out.println("Rectangle Point: X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + "X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + "X:" + super.getPointX(3) + ", Y:" + super.getPointY(3));
 
     }
 

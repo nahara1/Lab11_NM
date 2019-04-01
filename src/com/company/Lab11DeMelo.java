@@ -4,13 +4,11 @@ Purpose Details: Apply inheritance
 Course: IST 242-001
 Author: Nahara Melodonascimentodemou
 Date Developed: 3/28/19
-Last Date Changed: 3/31/19
+Last Date Changed: 4/1/19
 Rev: 5
  */
 
 package com.company;
-
-import org.w3c.dom.css.Rect;
 
 public class Lab11DeMelo {
     public static void main(String[] args) {

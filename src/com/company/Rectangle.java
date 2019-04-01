@@ -10,6 +10,10 @@ public class Rectangle extends Shape {
         Point p2 = new Point(2, 7);
         Point p3 = new Point(10, 3);
         Point p4 = new Point(p3.x, p2.y);
+        super.addPoints(p1);
+        super.addPoints(p2);
+        super.addPoints(p3);
+        super.addPoints(p4);
         System.out.println("Rectangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + "), (X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + ")\n");
 
     }

@@ -15,7 +15,6 @@ public class Circle extends Shape {
 
     public Circle(Point p1, int _radius) {
        super(p1);
-       this.radius = _radius;
        System.out.println("Circle Point: X:" + super.getPointX(0) + ", Y:" + super.getPointY(0));
        System.out.println("Circle Radius: " + _radius + "\n");
 
@@ -23,6 +22,10 @@ public class Circle extends Shape {
 
     public int getRadius() {
         return radius;
+    }
+
+    public void setRadius(int _radius) {
+        this.radius = _radius;
     }
 
     /*

@@ -6,25 +6,22 @@ public class Rectangle extends Shape {
 
     public Rectangle() {
 
-        super (new Point(2, 3));
-        Point p2 = new Point(2, 7);
-        Point p3 = new Point(10, 3);
-        Point p4 = new Point(p3.x, p2.y);
-        super.addPoints(p1);
-        super.addPoints(p2);
-        super.addPoints(p3);
-        super.addPoints(p4);
-        System.out.println("Rectangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + "), (X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + ")\n");
+        super (new Point(5, 10));
+        super.addPoints(pt2);
+        super.addPoints(pt3);
+        super.addPoints(pt4);
+        System.out.print("Rectangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + ")");
+        System.out.println(", (X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + "), (X:" + super.getPointX(3) + ", Y:" + super.getPointY(3) + ")\n");
 
     }
 
     public Rectangle(Point p1, Point p2, Point p3, Point p4) {
         super(p1);
-        super.addPoints(p1);
         super.addPoints(p2);
         super.addPoints(p3);
         super.addPoints(p4);
-        System.out.println("Rectangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + "), (X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + ")\n");
+        System.out.print("Rectangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + ")");
+        System.out.println(", (X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + "), (X:" + super.getPointX(3) + ", Y:" + super.getPointY(3) + ")\n");
 
     }
 

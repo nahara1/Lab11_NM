@@ -14,10 +14,10 @@ public class Lab11DeMelo {
     public static void main(String[] args) {
 
         // Points
-        Point p1 = new Point(5, 10);
-        Point p2 = new Point(5, 20);
-        Point p3 = new Point(10, 10);
-        Point p4 = new Point(10, 20);
+        Point p1 = new Point(2, 3);
+        Point p2 = new Point(2, 10);
+        Point p3 = new Point(7, 3);
+        Point p4 = new Point(7, 10);
 
 
 

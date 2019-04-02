@@ -6,10 +6,10 @@ public abstract class Shape {
     private ArrayList<Point> points = new ArrayList<Point>();
 
     // Points
-    Point p1 = new Point(5, 10);
-    Point p2 = new Point(5, 20);
-    Point p3 = new Point(10, 10);
-    Point p4 = new Point(10, 20);
+    Point pt1 = new Point(5, 10);
+    Point pt2 = new Point(5, 20);
+    Point pt3 = new Point(10, 10);
+    Point pt4 = new Point(10, 20);
 
 
 
@@ -47,6 +47,8 @@ public abstract class Shape {
 
     protected String shape;
 
+
+    /*
     //ZyBooks position methods
     protected Point position;
 

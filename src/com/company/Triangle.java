@@ -6,10 +6,8 @@ public class Triangle extends Shape {
 
     public Triangle () {
         super (new Point(5, 5));
-        Point p2 = new Point(5, 10);
-        Point p3 = new Point(10, 20);
-        super.addPoints(p2);
-        super.addPoints(p3);
+        super.addPoints(pt2);
+        super.addPoints(pt3);
         System.out.println("Triangle Points: (X:" + super.getPointX(0) + ", Y:" + super.getPointY(0) + "), " + "(X:" + super.getPointX(1) + ", Y:" + super.getPointY(1) + "), (X:" + super.getPointX(2) + ", Y:" + super.getPointY(2) + ")\n");
 
     }
